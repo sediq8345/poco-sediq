@@ -1,0 +1,28 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+.container {
+    min-height: 100%;
+    display: grid;
+    grid-template-rows: 15% 1fr 15%;
+}
+
+header {
+    text-align: center;
+    background-color: brown;
+    color: white;
+}
+
+img {
+    height: 150px;
+    width: 150px;
+}
+
+footer {
+    background-color: brown;
+    color: white;
+    text-align: center;
+}
