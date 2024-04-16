@@ -27,11 +27,21 @@ header {
     }
 }
 
-@media (min-width: 501px) and (max-width: 800px) {
+@media (min-width: 800px) and (max-width: 1000px) {
     .feature-container { 
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .sign-up{
+        width: 50%;
+    }
+
+    .feature-1 {
+
     }
 }
-@media (min-width: 801px) {
+@media (min-width: 1300px) {
     .feature-container {
         display: flex;
         flex-direction: row;
