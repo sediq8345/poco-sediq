@@ -1,0 +1,5 @@
+1. Initialize a container to store the digits.
+2. Take an input from the user and store in the digit container.
+3. Repeat the process until user decides to stop, after stopping move to the next step.
+4. Make the inputted list in ascending order.
+5. Print the ascended list of numbers.
